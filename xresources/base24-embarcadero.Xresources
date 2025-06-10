@@ -1,0 +1,60 @@
+! base24 Embarcadero
+! Scheme author: Thomas Leon Highbaugh
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #252a2f
+#define base01 #43474c
+#define base02 #616568
+#define base04 #9ea0a2
+#define base05 #bcbdc0
+#define base06 #dadbdb
+#define base07 #f8f8f8
+#define base08 #ed5d86
+#define base09 #ffcb3d
+#define base0A #eb824d
+#define base0B #20c290
+#define base0C #02efef
+#define base0D #4080d0
+#define base0E #a070d0
+#define base0F #50509f
+#define base12 #f57d9a
+#define base13 #ffe089
+#define base14 #a0d0a0
+#define base15 #40c0c0
+#define base16 #80b0f0
+#define base17 #c090f0
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

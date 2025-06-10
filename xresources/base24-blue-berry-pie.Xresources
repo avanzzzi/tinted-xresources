@@ -1,0 +1,60 @@
+! base24 Blue Berry Pie
+! Scheme author: FredHappyface (https://github.com/fredHappyface)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1c0b28
+#define base01 #0a4b61
+#define base02 #1f1637
+#define base04 #877e86
+#define base05 #bbb2ad
+#define base06 #f0e7d5
+#define base07 #0a6b7e
+#define base08 #99236d
+#define base09 #e9b8a7
+#define base0A #38163d
+#define base0B #5bb0b2
+#define base0C #7e82cc
+#define base0D #90a5bc
+#define base0E #9d53a7
+#define base0F #4c1136
+#define base12 #c77171
+#define base13 #793188
+#define base14 #0a6b7e
+#define base15 #5d5f71
+#define base16 #38163d
+#define base17 #bc93b6
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

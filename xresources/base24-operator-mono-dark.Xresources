@@ -1,0 +1,60 @@
+! base24 Operator Mono Dark
+! Scheme author: FredHappyface (https://github.com/fredHappyface)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #191919
+#define base01 #5a5a5a
+#define base02 #9a9a99
+#define base04 #b3b6b3
+#define base05 #c0c4c0
+#define base06 #cdd3cd
+#define base07 #fdfdf6
+#define base08 #ca372d
+#define base09 #d4d697
+#define base0A #89d3f6
+#define base0B #4d7b3a
+#define base0C #72d4c6
+#define base0D #4387cf
+#define base0E #b86cb4
+#define base0F #651b16
+#define base12 #c37d62
+#define base13 #fdfdc5
+#define base14 #83d0a2
+#define base15 #82e9da
+#define base16 #89d3f6
+#define base17 #fe2c79
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

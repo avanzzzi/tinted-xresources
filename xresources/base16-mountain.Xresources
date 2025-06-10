@@ -5,7 +5,7 @@
 #define base00 #0f0f0f
 #define base01 #191919
 #define base02 #262626
-#define base04 #ac8a8c
+#define base04 #4c4c4c
 #define base05 #cacaca
 #define base06 #e7e7e7
 #define base07 #f0f0f0

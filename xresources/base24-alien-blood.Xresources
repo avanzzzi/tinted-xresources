@@ -1,0 +1,60 @@
+! base24 Alien Blood
+! Scheme author: FredHappyface (https://github.com/fredHappyface)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #0f160f
+#define base01 #112615
+#define base02 #3c4711
+#define base04 #506243
+#define base05 #5a6f5c
+#define base06 #647d75
+#define base07 #73f990
+#define base08 #7f2b26
+#define base09 #707f23
+#define base0A #00a9df
+#define base0B #2f7e25
+#define base0C #317f76
+#define base0D #2f697f
+#define base0E #47577e
+#define base0F #3f1513
+#define base12 #df8008
+#define base13 #bde000
+#define base14 #18e000
+#define base15 #00dfc3
+#define base16 #00a9df
+#define base17 #0058df
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

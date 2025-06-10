@@ -1,0 +1,60 @@
+! base24 Monokai Vivid
+! Scheme author: FredHappyface (https://github.com/fredHappyface)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #121212
+#define base01 #121212
+#define base02 #828282
+#define base04 #c0c0c0
+#define base05 #dfdfdf
+#define base06 #fffefe
+#define base07 #ffffff
+#define base08 #fa2834
+#define base09 #fef20a
+#define base0A #0442fe
+#define base0B #97e123
+#define base0C #01b6ed
+#define base0D #0442fe
+#define base0E #f800f8
+#define base0F #7d141a
+#define base12 #f5669c
+#define base13 #fef26c
+#define base14 #b0e05e
+#define base15 #50cdfe
+#define base16 #0442fe
+#define base17 #f200f5
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

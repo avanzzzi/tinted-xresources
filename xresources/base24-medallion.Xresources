@@ -1,0 +1,60 @@
+! base24 Medallion
+! Scheme author: FredHappyface (https://github.com/fredHappyface)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #1d1808
+#define base01 #000000
+#define base02 #5e5118
+#define base04 #938958
+#define base05 #aea578
+#define base06 #c9c199
+#define base07 #fed597
+#define base08 #b54c00
+#define base09 #d2bd25
+#define base0A #abb8ff
+#define base0B #7c8a16
+#define base0C #906b25
+#define base0D #606baf
+#define base0E #8b5990
+#define base0F #5a2600
+#define base12 #ff9148
+#define base13 #ffe449
+#define base14 #b1c93a
+#define base15 #ffbb51
+#define base16 #abb8ff
+#define base17 #fe9fff
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06

@@ -1,0 +1,60 @@
+! base24 Mission Brogue
+! Scheme author: Thomas Leon Highbaugh
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #283139
+#define base01 #3b4954
+#define base02 #4d606f
+#define base04 #788ea1
+#define base05 #93a5b4
+#define base06 #abb9c4
+#define base07 #e7ebee
+#define base08 #efa9a9
+#define base09 #f2db78
+#define base0A #e0b88a
+#define base0B #8cd4b0
+#define base0C #93dfec
+#define base0D #a2c5fd
+#define base0E #ccb7db
+#define base0F #8e9ecb
+#define base12 #f6bfbf
+#define base13 #fff0b2
+#define base14 #b5e090
+#define base15 #b2f0fd
+#define base16 #c3d9fd
+#define base17 #e3c3e6
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
