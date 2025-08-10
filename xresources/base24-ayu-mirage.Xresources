@@ -1,28 +1,28 @@
-! base24 Ayu Light
+! base24 Ayu Mirage
 ! Scheme author: Tinted Theming (https://github.com/tinted-theming), Ayu Theme (https://github.com/ayu-theme)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #f8f9fa
-#define base01 #edeff1
-#define base02 #d2d4d8
-#define base04 #8a9199
-#define base05 #5c6166
-#define base06 #4e5257
-#define base07 #404447
-#define base08 #f07171
-#define base09 #fa8d3e
-#define base0A #f2ae49
-#define base0B #6cbf49
-#define base0C #4cbf99
-#define base0D #399ee6
-#define base0E #a37acc
-#define base0F #e6ba7e
-#define base12 #ff7383
-#define base13 #ffaa33
-#define base14 #86b300
-#define base15 #55b4d4
-#define base16 #478acc
-#define base17 #b595d6
+#define base00 #1f2430
+#define base01 #242936
+#define base02 #323844
+#define base04 #707a8c
+#define base05 #cccac2
+#define base06 #d9d7ce
+#define base07 #f3f4f5
+#define base08 #f28779
+#define base09 #ffad66
+#define base0A #ffd173
+#define base0B #d5ff80
+#define base0C #95e6cb
+#define base0D #73d0ff
+#define base0E #d4bfff
+#define base0F #f27983
+#define base12 #ff6666
+#define base13 #ffcc66
+#define base14 #87d963
+#define base15 #5ccfe6
+#define base16 #80b0ff
+#define base17 #b692ff
 
 *foreground:   base05
 #ifdef background_opacity
