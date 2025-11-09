@@ -10,8 +10,8 @@
 #define base06 #bbbbbb
 #define base07 #ffffff
 #define base08 #f9555f
-#define base09 #fdf029
-#define base0A #589cf5
+#define base09 #fdba29
+#define base0A #fdf029
 #define base0B #20af89
 #define base0C #1e9ee6
 #define base0D #589cf5

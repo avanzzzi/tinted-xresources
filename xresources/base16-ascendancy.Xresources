@@ -1,22 +1,22 @@
-! base16 Material Lighter
-! Scheme author: Nate Peterson
+! base16 Ascendancy
+! Scheme author: EmergentMind (https://github.com/emergentmind/ascendancy-scheme)
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
-#define base00 #fafafa
-#define base01 #e7eaec
-#define base02 #cceae7
-#define base04 #8796b0
-#define base05 #80cbc4
-#define base06 #43a39a
-#define base07 #000000
-#define base08 #ff5370
-#define base09 #f76d47
-#define base0A #ffb62c
-#define base0B #91b859
-#define base0C #39adb5
-#define base0D #6182b8
-#define base0E #7c4dff
-#define base0F #e53935
+#define base00 #282828
+#define base01 #212f3d
+#define base02 #504945
+#define base04 #bdae93
+#define base05 #d5c7a1
+#define base06 #ebdbb2
+#define base07 #fbf1c7
+#define base08 #c03900
+#define base09 #fe8019
+#define base0A #ffcc1b
+#define base0B #b8bb26
+#define base0C #8f3f71
+#define base0D #458588
+#define base0E #fabd2f
+#define base0F #b59b4d
 
 *foreground:   base05
 #ifdef background_opacity

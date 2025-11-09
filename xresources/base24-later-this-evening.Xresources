@@ -3,15 +3,15 @@
 ! Template author: Tinted Theming (https://github.com/tinted-theming)
 
 #define base00 #212121
-#define base01 #2b2b2b
-#define base02 #444747
-#define base04 #404242
-#define base05 #3e3f3f
-#define base06 #3b3c3c
-#define base07 #c0c2c2
+#define base01 #313131
+#define base02 #4f4f4f
+#define base04 #8c8c8c
+#define base05 #a6a6a6
+#define base06 #bfbfbf
+#define base07 #d9d9d9
 #define base08 #d35a5f
-#define base09 #e5d289
-#define base0A #6599d5
+#define base09 #e5af89
+#define base0A #e5d289
 #define base0B #afba66
 #define base0C #91beb6
 #define base0D #a0b9d5
