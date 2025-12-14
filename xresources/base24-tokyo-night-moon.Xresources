@@ -1,0 +1,60 @@
+! base24 Tokyo Night Moon
+! Scheme author: Michaël Ball, based on Tokyo Night by enkia (https://github.com/enkia/tokyo-night-vscode-theme)
+! Template author: Tinted Theming (https://github.com/tinted-theming)
+
+#define base00 #222436
+#define base01 #1e2030
+#define base02 #2f334d
+#define base04 #828bb8
+#define base05 #c8d3f5
+#define base06 #b4c2f0
+#define base07 #c8d3f5
+#define base08 #c099ff
+#define base09 #ffc777
+#define base0A #ffc777
+#define base0B #c3e88d
+#define base0C #86e1fc
+#define base0D #82aaff
+#define base0E #fca7ea
+#define base0F #c53b53
+#define base12 #ff757f
+#define base13 #ffd793
+#define base14 #c3e88d
+#define base15 #86e1fc
+#define base16 #82aaff
+#define base17 #fca7ea
+
+*foreground:   base05
+#ifdef background_opacity
+*background:   [background_opacity]base00
+#else
+*background:   base00
+#endif
+*cursorColor:  base05
+
+*color0:       base00
+*color1:       base08
+*color2:       base0B
+*color3:       base0A
+*color4:       base0D
+*color5:       base0E
+*color6:       base0C
+*color7:       base06
+
+*color8:       base02
+*color9:       base12
+*color10:      base14
+*color11:      base13
+*color12:      base16
+*color13:      base17
+*color14:      base15
+*color15:      base07
+
+! Note: colors beyond 15 might not be loaded (e.g., xterm, urxvt),
+! use 'shell' template to set these if necessary
+*color16:      base09
+*color17:      base0F
+*color18:      base01
+*color19:      base02
+*color20:      base04
+*color21:      base06
